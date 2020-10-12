@@ -4,16 +4,14 @@ class Student
         @major = major
     end
 
-    # These are setter methods.
-    def set_name=(name)
-        @name = name
+    # A getter method for name.
+    def name
+        @name
     end
-
-    def set_major=(major)
-        @major = major
-    end
-
 end
+
+student = Student.new("John", "Math")
+puts student.name
 
 
 
