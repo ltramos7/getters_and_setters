@@ -21,6 +21,13 @@ class Student
 end
 
 student = Student.new("John", "Math")
+puts "Original major"
+puts student.major
+puts "--------------"
+
+student.set_major="Biology"
+
+puts "Updated major"
 puts student.major
 
 
